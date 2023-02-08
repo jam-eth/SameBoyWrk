@@ -17,7 +17,7 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-sudo python /home/pi/python_workspace/wakeup.py &
-sudo /home/pi/python_workspace/fbcp-ili9341/build/fbcp-ili9341 &
+sudo python /home/pi/SameBoyWrk/wakeup.py &
+sudo /home/pi/fbcp-ili9341/build/fbcp-ili9341 &
 
 exit 0
